@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "904428028172",
+    "project_id": "chatapp-c7720",
+    "storage_bucket": "chatapp-c7720.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904428028172:android:be9f9a7149bfce2923c929",
+        "android_client_info": {
+          "package_name": "com.example.mechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904428028172-famgh13on19a145ld75d3qf2igvbvdeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1Gpl4psZ6OSzbEtW_XRglOhJwRiNOXnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904428028172-famgh13on19a145ld75d3qf2igvbvdeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
