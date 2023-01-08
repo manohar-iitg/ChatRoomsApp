@@ -1,16 +1,21 @@
 # mechat
 
-A new Flutter project.
+A Flutter project integrated with firebase authentication and firestore.
 
-## Getting Started
+## SignIn Page
 
-This project is a starting point for a Flutter application.
+Existing user can sign-in to the app and firebase authentication is used for this
+Also contains Sign-up and Reset Password buttons
 
-A few resources to get you started if this is your first Flutter project:
+## SignUp Page
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+New users can create their account using email address.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ResetPage
+
+If any users forget their password, firebase is used to send a reset password link to their email
+
+## Home Page and Chats
+
+After sign-in/sign-up, the user can enter the homescreen which includes a search bar. User can search for other users by entering their exact email id. Once a chat is initiated with the user, firestore creates a collection with an id, concatenating both the usernames. The collection will contain documents of chats of the users.
+
